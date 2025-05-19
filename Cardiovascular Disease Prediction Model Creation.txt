@@ -1,0 +1,32 @@
+Cardiovascular Disease Prediction Model Creation
+ 
+Objective:
+To create a predictive model for identifying the risk of cardiovascular disease using the provided dataset. This task will involve Exploratory Data Analysis (EDA) followed by model development.
+ 
+Dataset:
+The dataset can be found at: https://www.kaggle.com/datasets/mahmudulhaqueshawon/cardiovascular-disease
+ 
+Columns:
+id: Unique identifier for each individual
+age: Age of the individual in years
+gender: Gender of the individual (1 - female, 2 - male)
+height: Height of the individual in cm
+weight: Weight of the individual in kg
+ap_hi: Systolic blood pressure
+ap_lo: Diastolic blood pressure
+cholesterol: Cholesterol level (1 - normal, 2 - above normal, 3 - well above normal)
+gluc: Glucose level (1 - normal, 2 - above normal, 3 - well above normal)
+smoke: Smoking status (0 - non-smoker, 1 - smoker)
+alco: Alcohol intake status (0 - non-drinker, 1 - drinker)
+active: Physical activity level (0 - inactive, 1 - active)
+cardio: Target variable indicating the presence or absence of cardiovascular disease (0 - no disease, 1 - disease)
+ 
+Tasks for Interns:
+ 
+1. Exploratory Data Analysis (EDA)
+ 
+2. Feature Engineering
+ 
+3. Model Development
+ 
+4. Model Evaluation and Interpretation
