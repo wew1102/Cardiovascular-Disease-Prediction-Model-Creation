@@ -1,46 +1,46 @@
-# Cardiovascular Disease Prediction Model Creation
+Cardiovascular Disease Prediction Model Creation
 
-## 📌 Objective
+Objective
 The objective of this project is to build a machine learning model that can predict the likelihood of a person having cardiovascular disease based on various health-related features such as age, gender, blood pressure, cholesterol levels, and lifestyle habits. This is done using the dataset provided on Kaggle.
 
-## 📊 Dataset
+Dataset
 The dataset used in this project is from Kaggle:  
-**[Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/mahmudulhaqueshawon/cardiovascular-disease)**
+[Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/mahmudulhaqueshawon/cardiovascular-disease)
 
-### 🧾 Columns:
-- **id**: Unique identifier for each individual
-- **age**: Age (in days, converted to years)
-- **gender**: 1 - female, 2 - male
-- **height**: Height in cm
-- **weight**: Weight in kg
-- **ap_hi**: Systolic blood pressure
-- **ap_lo**: Diastolic blood pressure
-- **cholesterol**: 1 - normal, 2 - above normal, 3 - well above normal
-- **gluc**: 1 - normal, 2 - above normal, 3 - well above normal
-- **smoke**: 0 - non-smoker, 1 - smoker
-- **alco**: 0 - non-drinker, 1 - drinker
-- **active**: 0 - inactive, 1 - active
-- **cardio**: Target variable (0 - no disease, 1 - disease)
+Columns:
+- id: Unique identifier for each individual
+- age: Age (in days, converted to years)
+- gender: 1 - female, 2 - male
+- height: Height in cm
+- weight: Weight in kg
+- ap_hi: Systolic blood pressure
+- ap_lo: Diastolic blood pressure
+- cholesterol: 1 - normal, 2 - above normal, 3 - well above normal
+- gluc: 1 - normal, 2 - above normal, 3 - well above normal
+- smoke: 0 - non-smoker, 1 - smoker
+- alco: 0 - non-drinker, 1 - drinker
+- active: 0 - inactive, 1 - active
+- cardio: Target variable (0 - no disease, 1 - disease)
 
-## 📌 Steps Performed
+Steps Performed
 
-### 1. 🕵️ Exploratory Data Analysis (EDA)
+1.Exploratory Data Analysis (EDA)
 - Data structure inspection and summary statistics
 - Visualizations like count plots and correlation heatmaps
 
-### 2. 🛠️ Feature Engineering
+2.Feature Engineering
 - Converted age from days to years
 - Removed irrelevant columns (`id`)
 - Removed outliers in blood pressure
 - Scaled features for model training
 
-### 3. 🤖 Model Development
+3.Model Development
 - Model used: `RandomForestClassifier`
 - Trained on 80% of data and tested on 20%
 
-### 4. 📈 Evaluation & Interpretation
+4.Evaluation & Interpretation
 - Classification report & confusion matrix
 - ROC curve and AUC score (Achieved ~0.76)
 
-## ✅ Result
+Result
 The model successfully predicts cardiovascular disease risk with an AUC score of **0.76**, indicating decent performance and the potential to improve with further tuning and feature optimization.
